@@ -1,0 +1,10 @@
+.nav-wrapper{
+    background-color: black;
+    padding: 0.7rem 0;
+   /* ami web page joto e scroll kri na keno seta jodi same upore fixed kre rakhte chi, mane scroll er sthe sthe nav ta thakbe se jonno Use kora hoy */
+    position: sticky;
+    /* top aita insure krse j always viewpoint 0 tey thakbe navigation menu ta */
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+}
