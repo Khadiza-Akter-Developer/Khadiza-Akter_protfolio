@@ -6,5 +6,6 @@
     /* top aita insure krse j always viewpoint 0 tey thakbe navigation menu ta */
     top: 0;
     z-index: 30;
+    /* pichon er jinish gula blur kre dey jeta nav menu r upor ashbe */
     backdrop-filter: blur(50px);
 }
