@@ -9,3 +9,53 @@
     /* pichon er jinish gula blur kre dey jeta nav menu r upor ashbe */
     backdrop-filter: blur(50px);
 }
+.nav-content{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem ;
+    padding-left: 43rem;
+    margin: 0 auto;
+}
+.nav-content ul{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+.nav-content li{
+    margin: 0 1.5rem;
+}
+.menu-list{
+    text-decoration: none;
+    font-size: 0.4cm;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+.menu-list::before{
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    border-radius: o.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+.menu-list:hover::before{
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.menu-list .contact-btn{
+    font-size: 0.5cm;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
